@@ -1,0 +1,182 @@
+/* index */
+#main_content.schedule .highlight {
+	overflow: auto;
+}
+
+#main_content.schedule .highlight p.image {
+	float: left;
+	margin-right: 10px;
+}
+
+#main_content.schedule .highlight p.date {
+	font-weight: bold;
+}
+
+#main_content.schedule ul {
+    margin-left: 0px;
+}
+
+/* index */
+#main_content.schedule .index ul {
+	margin: 2em 0px;
+}
+
+#main_content.schedule .index li {
+	background: none;
+	position: relative;
+	clear: both;
+	margin: 0px;
+	padding: 10px 0px 10px 50px;
+	border-top: 1px solid #ccc;
+}
+
+#main_content.schedule .index li:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0px;
+	visibility: hidden;
+}
+
+#main_content.schedule .index li h3 {
+	margin-bottom: 0.5em;
+}
+
+#main_content.schedule .index p {
+	margin: 0em 0em 0.8em 0em;
+}
+
+#main_content.schedule .index li p.date {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 40px;
+	height: 49px;
+	background: url(../graphic/common/schedule_date_background.gif) no-repeat;
+	text-align: center;
+}
+
+#main_content.schedule .index p.date .month {
+	display: block;
+	padding-top: 3px;
+}
+
+#main_content.schedule .index .highlight p.date .month {
+	display: inline;
+}
+
+#main_content.schedule .index li p.image {
+	margin: 0em 0em 0em 0.5em;
+	float: right;
+}
+
+/* list */
+#main_content.schedule .list ul {
+	margin: 2em 0em;
+	overflow: auto;
+}
+
+#main_content.schedule .list li {
+	padding-left: 0px;
+	background: none;
+	margin-bottom: 1.5em;
+}
+
+#main_content.schedule .list p.date {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+
+}
+
+/* item */
+#main_content.schedule .item h2 {
+	margin-bottom: 2.5em;
+}
+
+#main_content.schedule .item div.image {
+	float: left;
+	width: 200px;
+	margin-right: 10px;
+}
+
+#main_content.schedule .item div.image p.image {
+	margin-bottom: 1px;
+}
+
+#main_content.schedule .item p.image img {
+	display: block;
+	padding: 0px;
+	border: 0px;
+}
+
+#main_content.schedule .item div.image .text {
+	padding: 6px 10px;
+	background: #ededed;
+	line-height: 1.2;
+	font-style: italic;
+}
+
+#main_content.schedule .item dl.vevent {
+	margin-bottom: 1.5em;
+	line-height: 1.5;
+}
+
+#main_content.schedule .item dl.vevent dt {
+	display: block;
+	float: left;
+	margin: 0em 0.5em 0.5em 0em;
+	font-weight: bold;
+}
+
+#main_content.schedule .item dl.vevent dd {
+	display: block;
+	margin-bottom: 0.5em;
+}
+
+/* customize .utilities (item) */
+#main_content.schedule .utilities {
+	margin-top: -2em;
+}
+
+/* .go_list (index & item) */
+#main_content.schedule .go_list {
+	clear: both;
+	padding-top: 10px;
+}
+
+#main_content.schedule .go_list p {
+	margin: 0px;
+	border: solid #ccc;
+	border-width: 1px 0px;
+}
+
+#main_content.schedule .go_list a {
+	line-height: 2.4em;
+	background: url(../graphic/common/go_list.png) no-repeat 0% 50%;
+	padding-left: 8px;
+	font-weight: bold;
+}
+
+#main_content.schedule .index .go_list p {
+	text-align: right;
+}
+
+#main_content.schedule .index .go_list a {
+	background: url(../graphic/common/bullet_raquo_blue.png) no-repeat 100% 50%;
+	padding-right: 8px;
+}
+
+/* customize .go_list in item */
+#main_content.schedule .item .go_list p {
+	display: inline; /* don't cover .utilities */
+	position: relative;
+	top: 1px; /* adjust vertical position */
+	border: 0px;
+}
+
+/* customize .pages (index) */
+#main_content.schedule .index .pages {
+	margin-left: 224px; /* leave space for .go_list */
+	margin-top: -2em; /* overlap with .go_list */
+	border: 0px;
+}

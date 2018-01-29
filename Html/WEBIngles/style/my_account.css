@@ -1,0 +1,54 @@
+dl.my_account_datalist {
+    overflow: auto;
+}
+
+dl.my_account_datalist dt {
+    float: left;
+    width: 135px;
+    margin-bottom: 0.75em;
+    font-weight: bold;
+}
+
+dl.my_account_datalist dd {
+    padding-left: 110px;
+    margin-bottom: 0.75em;
+}
+
+dl.my_account_datalist ul {
+    margin: 0em !important;
+}
+
+dl.my_account_datalist li {
+    margin: 0em !important;
+}
+
+    
+#additional_content_my_account_overview h4 {
+	margin-bottom: 0.5em;
+	padding: 0.3em 0.7em;
+	background: #e5e5e5;
+}
+
+#additional_content_my_account_overview ul {
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#additional_content_my_account_overview p.view_all {
+	margin-bottom: 0em;
+	text-align: right;
+	padding-bottom: 3px;
+}
+
+#additional_content_my_account_overview p.view_all a {
+	border: 2px solid #e6e7e8;
+	padding: 2px;
+	cursor: pointer;
+	background: #fff;
+}
+
+#additional_content_my_account_overview p.view_all a:hover {
+	background: #58595b;
+	color: #fff;
+	text-decoration: none;
+}

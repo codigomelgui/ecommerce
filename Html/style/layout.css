@@ -1,0 +1,255 @@
+/* hidden elements */
+caption, #accesibiliy_menu, #go_up, #languages p, #quick_search p, #quick_search label strong, #navigation_main p, #additional_content_misc form h4, #additional_content_misc label strong, #sponsors li span, .pages li.previous span, .pages li.next span, #main_content.addresses .geo, #main_content.login h4, #main_content.checkout .index h4, #main_content.result_search form h3, #main_content.result_search form label strong
+{
+	position: absolute;
+	left: -9999px;
+	top: -9999px;
+	visibility: hidden;
+}
+
+/* main layout */
+body {
+        background:url(../graphic/common/bkg.jpg) left top repeat-x;
+        background-color: #0d678f;
+}
+
+#wrapper {
+	position: relative;
+	width: 859px;
+	margin: 0 auto;
+	background:url(../graphic/common/wrapper.png) left bottom no-repeat;
+	overflow: hidden;
+	background-image: url(../graphic/common/wrapper.png);
+}
+
+#content_wrapper, #footer
+{
+	width: 814px;
+	margin: 0px auto;
+}
+
+#header, #navigation_main
+{
+	margin: 0px auto;
+}
+
+#content_wrapper {
+	overflow: hidden;
+}
+
+#home_banner {
+        overflow: hidden;
+}
+
+#main_content {
+	position: relative;
+	float: left;
+	width: 560px;
+	/*min-height: 300px; */
+}
+
+#main_content.site_map {
+        padding-bottom: 1em;
+}
+
+#additional_content {
+    float: left;
+    left: 28px;
+    position: relative;
+    width: 225px;
+}
+
+#footer {
+
+	width:100%;
+        background:url(../graphic/common/footer.png) left top repeat-x;
+        height: 300px;
+    margin-top: -185px;
+}
+#footer_center {
+    background: url("../graphic/common/footercenter.jpg?226251297371909") no-repeat scroll left top transparent;
+    clear: both;
+    display: block;
+    height: 23px;
+    margin-top: 79px;
+    overflow: hidden;
+    padding: 14px 0;
+    position: relative;
+
+}
+
+/* Customize header background */
+
+#header {
+        background:url(../graphic/common/header.jpg) left top no-repeat; /* Header background */
+        height: 131px; /* Header background height */
+}
+
+h1 {
+    height: 74px;
+    left: 2px;
+    top: 2px;
+    width: 235px;
+        
+}
+
+/* Don't edit this please - */
+
+#header, h1 {
+	position: relative;
+}
+
+h1 a {
+        position:relative;
+        display: block;
+        width: 100%;
+        height: 100%;
+}
+
+h1 a span {
+        text-indent: -9999px;
+        display: block;
+}
+
+/* <--- Don't edit this please */
+
+/* end */
+
+/* layout details */
+/* header & navigation_main */
+
+#navigation_main {
+    float: right;
+    margin-top: -32px;
+}
+
+#utilities {
+    background-color: #626262;
+    float: right;
+}
+
+#utilities ul li {
+    float:left;
+}
+
+#languages {
+    background: none repeat scroll 0 0 #137EAC;
+    float: right;
+    margin-right: 9px;
+    font: x-small Arial,sans-serif;
+}
+#languages li
+{
+	float: left;
+}
+
+
+/* other menus */
+#navigation_secondary {
+	width: 814px;
+	margin: 30px auto 0px auto;
+	padding: 7px 0px;
+	background: #f9f9f9;
+	overflow: hidden;
+}
+
+#navigation_tools {
+	width: 400px;
+	float: left;
+}
+
+#navigation_skills {
+	width: auto;
+	float: right;
+}
+
+/* footer */
+#site_info p {
+    float: left;
+    font: 11px Arial,sans-serif;
+    margin-left: 20px;
+    padding: 0 0 0;
+}
+
+#navigation_footer {
+    float: right;
+    font: x-small Arial,sans-serif;
+    margin-right: 20px;
+    padding: 0;
+}
+
+#navigation_footer li {
+	float: left;
+}
+
+#sponsors {
+	position: absolute;
+	left: 274px;
+	top: 151px;
+}
+
+/* Designed By TXT */
+
+#designed_by {
+	width: 859px;
+	margin: 0px auto;
+        font-family: Helvetica, Arial;
+        padding-top: 177px;
+}
+
+/*#designed_by a {
+        text-decoration: none;
+        outline: none;
+        display: none;
+        float: left;
+        padding: 9px 0px 9px 18px;
+        font-size: 1.2em;
+        color: #fff;
+}
+
+*/
+#designed_by strong {
+        font-weight: normal;
+}
+
+#designed_by strong span {
+        font-weight: bold;
+}
+
+/* Designed By IMG
+
+#designed_by {
+        width: 859px;
+	height: 54px;
+	margin: 0px auto;
+	background: url(../graphic/common/logo_designed.png) 12px top no-repeat;	
+	border-top: 1px solid #EDEDED;
+	}
+
+#designed_by a {
+        width: 118px;
+	height: 54px;
+	outline: none;
+	font-size: 1.2em;
+    display: none;
+	}
+
+*.image_replacement {
+        font-size: x-small !important;
+	display: block;
+	position: relative;
+	margin: 0em;
+	overflow: hidden;
+	background-position: left top;
+	background-repeat: no-repeat !important;
+	}
+
+*.image_replacement span, *.image_replacement *.img {
+        position: absolute;
+	visibility: hidden;
+	top: 0em;
+	left: 0em;
+	width: 0em;
+	height: 0em;
+	}
+*/

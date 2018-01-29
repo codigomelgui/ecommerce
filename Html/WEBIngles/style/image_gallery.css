@@ -1,0 +1,179 @@
+/* index & list */
+#main_content.image_gallery .index ul, #main_content.image_gallery .list ul
+{
+	margin: 2em 0px;
+	overflow: auto;
+}
+
+#main_content.image_gallery .index ul {
+	margin-bottom: 0px;
+}
+
+#main_content.image_gallery .index li, #main_content.image_gallery .list li
+{
+	background: none;
+	float: left;
+	display: inline;
+	width: 150px;
+	overflow: hidden;
+	margin: 0em 3em 1.5em 0em;
+	padding: 0px;
+}
+
+#main_content.image_gallery .index li.first_line_item, #main_content.image_gallery .list li.first_line_item {
+       clear: left;
+}
+
+#main_content.image_gallery .index li h3, #main_content.image_gallery .list li h3
+{
+    height: 1.2em;
+    line-height: 1.1em;
+        margin: 0em 0em 0.4em 0em;
+        overflow: hidden;
+        font-size: medium;
+}
+
+#main_content.image_gallery .index li p, #main_content.image_gallery .list li p, #main_content.image_gallery .text
+{
+	margin-bottom: 0.3em;
+	line-height: 1.3;
+}
+
+#main_content.image_gallery ul {
+    margin-left: 0px;
+}
+
+/* item */
+#main_content.image_gallery .item h2 {
+	margin-bottom: 1em;
+}
+
+#main_content.image_gallery .item .go_list p {
+	border: 0px;
+}
+
+#main_content.image_gallery .item .image_navigation {
+	margin: 0px 0px 1em 0px;
+	border: solid #ccc;
+	border-width: 1px 0px;
+	min-height: 1px;
+}
+
+#main_content.image_gallery .item .image_navigation:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+#main_content.image_gallery .item .image_navigation li {
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	background: none;
+	line-height: 2em;
+        font-weight: bold;
+}
+
+#main_content.image_gallery .item .image_navigation li a {
+	float: right;
+	padding: 0px 9px 0px 0px;
+	background: url(../graphic/common/bullet_raquo_blue.png) no-repeat 100% 50%;
+}
+
+#main_content.image_gallery .item .image_navigation li.first-child, #main_content.image_gallery .item .image_navigation li:first-child
+{
+	float: left;
+}
+
+#main_content.image_gallery .item .image_navigation li.first-child a, #main_content.image_gallery .item .image_navigation li:first-child a
+{
+	float: left;
+	padding: 0px 0px 0px 9px;
+	background: url(../graphic/common/bullet_laquo_blue.png) no-repeat 0% 50%;
+}
+
+#main_content.image_gallery .item .utilities {
+	margin-top: -2em;
+}
+
+#main_content.image_gallery .item h3 {
+	margin: 3em 0px 1em 110px;
+}
+
+#main_content.image_gallery .item ol {
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
+
+#main_content.image_gallery .item .comments li {
+	margin-left: 110px;
+	margin-bottom: 1em;
+	border-bottom: 1px solid #ccc;
+	list-style: none;
+}
+
+#main_content.image_gallery .item .comments li h4 a {
+	font-weight: bold;
+}
+
+#main_content.image_gallery .item .comments_number {
+	position: absolute;
+	left: 0px;
+	margin-top: -2px;
+	width: 100px;
+	text-align: right;
+	font-weight: bold;
+}
+
+#main_content.image_gallery #comments_send h4 {
+	margin: 2em 0em 0.7em 110px;
+}
+
+#main_content.image_gallery #comments_send div.submit {
+	margin-left: 110px;
+}
+
+/* .go_list (index & item) */
+#main_content.image_gallery .go_list {
+	clear: both;
+	padding-top: 10px;
+}
+
+#main_content.image_gallery .go_list p {
+	margin: 0px;
+	border: solid #ccc;
+	border-width: 1px 0px;
+}
+
+#main_content.image_gallery .go_list a {
+	line-height: 2.4em;
+	background: url(../graphic/common/go_list.png) no-repeat 0% 50%;
+	padding-left: 8px;
+	font-weight: bold;
+}
+
+#main_content.image_gallery .index .go_list p {
+	text-align: right;
+}
+
+#main_content.image_gallery .index .go_list a {
+	background: url(../graphic/common/bullet_raquo_blue.png) no-repeat 100% 50%;
+	padding-right: 8px;
+}
+
+/* customize .pages */
+#main_content.image_gallery .list .pages {
+	clear: both;
+}
+
+#main_content.image_gallery .item .pages {
+	margin-left: 110px; /* align with comments */
+	margin-top: -0.8em;
+}
+
+#main_content.image_gallery p.date,
+#main_content.image_gallery div.text {
+        clear: left;
+}

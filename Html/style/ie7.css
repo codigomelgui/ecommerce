@@ -1,0 +1,118 @@
+#main_content .form_invalid em, #main_content.result_search li, #main_content.clients ul li, #main_content.contact ul li, #main_content.addresses ul li, #additional_content_my_account, #additional_content_help, #main_content.blog .item .comments li, #main_content.e_commerce .product_images, #main_content.e_commerce .highlight, #main_content.e_commerce .index .new_products, #main_content.e_commerce .list .product_list, #main_content.e_commerce .index .offers li, #main_content.e_commerce .list .product_list li, #main_content.checkout h2, #main_content.checkout h3, #main_content.image_gallery .list li, #main_content.image_gallery .item .comments li, #main_content.news .highlight, #main_content.news .index li, #main_content.news .list li, #main_content.product_services .list li , #main_content.schedule .highlight, #main_content.schedule .index li, #content_wrapper #additional_content_offers h4, #content_wrapper #additional_content_offers p
+{
+	min-height: 1px; /* force hasLayout */
+}
+
+div#wrapper div#additional_content div.block p.image {
+        margin-right: 0px;
+}
+
+
+/* fix login_point */
+#login_point input {
+	padding-top: 2px !important;
+}
+
+/* layout */
+#wrapper {
+	height: 1%; /* fixes guillotine bug */
+}
+
+/* basic.css */
+caption {
+	text-indent: -1600px;
+	font-size: 0px;
+}
+
+#quick_search input[type=text] {
+	height: 14px;
+	padding-top: 3px;
+}
+
+#additional_content_my_cart p.check_basket {
+	padding-top: 3px;
+}
+
+#additional_content_offers p.more_offers {
+	padding-top: 3px;
+	padding-bottom: 4px;
+}
+
+/* blog.css */
+#main_content.blog .post_header {
+	padding-top: 0px;
+}
+
+/* schedule.css */
+#main_content.schedule .item dl.vevent {
+    width: 23em;
+}
+
+/* catalog.css */
+
+#main_content.e_commerce div.submit {
+	padding: 0px;
+}
+
+#main_content.e_commerce form div.submit input, #content_wrapper #additional_content_offers form div.submit input
+{
+	padding-right: 8px;
+	background-position: 100% 45%;
+}
+
+#main_content.e_commerce form div.submit input:hover, #content_wrapper #additional_content_offers form div.submit input:hover
+{
+	background-position: 100% 45%;
+}
+
+#additional_content_offers p.image {
+	padding-bottom: 0px;
+}
+
+#additional_content_offers div.submit input {
+	position: relative;
+	right: 10px;
+}
+
+#main_content.e_commerce .item div.submit {
+	position: relative;
+	left: -10px;
+}
+
+#main_content.e_commerce .item .utilities {
+	top: -4.3em;
+	margin-bottom: -3em;
+}
+
+/* checkout */
+#anonymous_login #additional_content {
+        width: 217px;
+}
+
+#main_content.checkout .index #anonymous_login div.submit input {
+	position: relative;
+	right: -10px;
+}
+
+/* image_gallery.css */
+#main_content.image_gallery .index ul {
+	margin-bottom: 2em;
+}
+
+#main_content.login div.submit input, #main_content.checkout .index div.submit input
+{
+	float: right;
+}
+
+
+/*Private area*/
+#main_content.private_area div.submit {
+        margin-left:154px;
+        width:271px;
+}
+
+/* Navigation footer */
+
+div#navigation_footer ul li a span {
+	line-height: 1.2em;
+}

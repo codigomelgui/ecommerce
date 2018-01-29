@@ -1,0 +1,96 @@
+/* hidden elements */
+#main_content.home .more_info span {
+	position: absolute;
+	left: -9999px;
+	top: -9999px;
+	visibility: hidden;
+}
+
+/* adjust layout */
+
+#home_banner {
+        overflow: hidden;
+        margin-bottom: 20px;
+}
+
+#page_home #quick_search fieldset {
+	top: 202px;
+}
+
+/* boxes, shared */
+#main_content.home #home_products, #main_content.home #home_clients
+{
+        background:url(../graphic/common/homebox.jpg) left top no-repeat;
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        width: 267px;
+        height:357px;
+}
+#textohome{
+	float:left;
+	width:260px;
+	margin-right: 20px;
+    
+
+
+}
+
+#main_content.home #home_products {
+	margin-right: 25px;
+}
+
+#main_content.home #home_products h2, #main_content.home #home_clients h2
+{
+    background-image: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 14px;
+    padding: 15px 20px 0;
+    font-size: 13px;
+}
+
+#main_content.home #home_products p, #main_content.home #home_clients p, #main_content.home #home_products div.text, #main_content.home #home_clients div.text
+{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#main_content.home #home_products div.text p, #main_content.home #home_clients div.text p
+{
+	padding-left: 0px;
+	padding-right: 0px;
+    color: #FFFFFF;
+    line-height: 12px;
+}
+
+#main_content.home #home_products p.image, #main_content.home #home_clients p.image
+{
+
+}
+
+#main_content.home #home_products p.image img, #main_content.home #home_clients p.image img
+{
+	display: block;
+}
+p.more_info a{
+    color: #127CA6;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+#home_products p.more_info{
+
+    margin-top: 65px;
+
+}
+#home_clients p.more_info{
+
+    margin-top: 52px;
+
+}
+
+p.date{
+display:none;
+}

@@ -1,0 +1,178 @@
+/* @group generic */
+
+#main_content div.item_list p {
+    margin: 0em 0em 0.8em 0em;
+}
+
+#main_content div.item_list p.image,
+#main_content div.category_list p.image {
+    float: left;
+    margin: 0em 1em 1em 0em;
+}
+
+#main_content ul.image_list {
+    margin: 0em;
+    overflow: hidden;
+}
+
+#main_content ul.image_list li {
+    float: left;
+    background: none;
+    padding: 0em;
+    margin: 0em 1em 0em 0em;
+}
+
+#main_content.services_list h2 {
+    display: none;
+}
+
+#main_content div.section_presentation h2 {
+    display: block;
+}
+
+/* @end */
+
+/* @group item_list */
+
+div.item_list {
+    clear: left;
+}
+
+div.item_list h2 {
+    margin: 0em;
+    display: none;
+}
+
+#main_content div.item_list ul {
+    margin-left: 0em;
+}
+
+#main_content div.item_list ul li {
+    overflow: hidden;
+    background: none;
+    padding: 0em;
+    margin: 0em 0em 1em 0em;
+    border-bottom: 1px solid #C5C5C5;
+}
+
+#additional_content div.item_list {
+    margin: 0em 0em 1em 0em;
+}
+
+#additional_content div.item_list h3 {
+    background: none;
+}
+
+#additional_content div.item_list h2 {
+    font-size: medium;
+    margin-bottom: 10px;
+}
+
+#additional_content div.item_list ul li {
+    margin: 0em 0em 1em 0em;
+    border: 1px solid #C5C5C5;
+    padding: 1em 1em 0em 1em;
+}
+
+#additional_content div.item_list ul li h3 {
+    margin: 0em 0em 1em 0em;
+}
+
+#additional_content div.item_list ul li p {
+    float: left;
+}
+
+/* @end */
+
+/* @group category_list */
+
+#main_content div.category_list {
+    
+}
+
+#main_content div.category_list ul {
+    margin: 0em;
+    overflow: hidden;
+}
+
+#main_content div.category_list ul li {
+    margin: 1em 2em 1em 0em;
+    width: 160px;
+    float: left;
+    padding: 0em;
+    background: none;
+}
+
+#main_content div.category_list ul.plain_list li {
+    background: none;
+    padding: 0em;
+    margin: 0em 0em 0em 1.2em;
+    width: auto;
+    float: none;
+    list-style-type: disc;
+    list-style-position: outside;
+}
+
+#main_content div.category_list ul li h3 {
+    height: 1.2em;
+    line-height: 1.1em;
+    overflow: hidden;
+    margin: 0em 0em 0.4em 0em;
+}
+
+#main_content div.category_list ul.plain_list li h3 {
+    height: auto;
+    overflow: visible;
+}
+
+#main_content div.category_list ul.plain_list li p.image {
+    display: none;
+}
+
+/* @end */
+
+/* @group Item images */
+
+div#item_images {
+	overflow: hidden;
+	width: 100%;
+	margin: 0em 0em 15px 0em;
+}
+
+div#item_images ul.image_list {
+	width: auto;
+	float: none;
+	clear: left;
+	margin: 0em;
+}
+
+div#item_images ul.image_list li {
+	background: none;
+	padding: 0em;
+	float: left;
+	margin: 0em 4px 0em 0em;
+}
+
+div#item_images.vproduct p#medium_image {
+	width: 420px;
+	float: left;
+}
+
+div#item_images.vproduct p#medium_image a img {
+	display: block;
+	margin: 0em auto;	
+}
+
+div#item_images.vproduct ul.image_list {
+	float: right;
+	width: 123px;
+	margin: 0em 5px 0em 0em;
+	clear: none;
+}
+
+div#item_images.vproduct ul.image_list li {
+	float: none;
+	margin: 0em;
+}
+
+/* @end */

@@ -1,0 +1,93 @@
+/* hidden */
+#main_content.private_area .image_list em {
+	position: absolute;
+	left: -9999px;
+	top: -9999px;
+	visibility: hidden;
+}
+
+/* @group login */
+
+#main_content.private_area label strong {
+	width: 150px;
+}
+
+#main_content.private_area input[type="text"],
+#main_content.private_area input[type="password"] {
+	width:265px;
+}
+
+#main_content.private_area div.submit {
+	margin-left:160px;
+	width:271px;
+}
+
+/* @end */
+
+/* @group breadcrumb */
+
+#main_content.private_area ol#breadcrumb li a,
+#main_content.private_area ol#breadcrumb li span {
+	background: transparent url(../graphic/private_area/private_area_open_folder.png) left center no-repeat;
+	padding-left: 30px;
+}
+
+/* @end breadcrumb */
+
+/* @group list */
+
+#main_content.private_area ul {
+	 margin-left: 0em;
+}
+
+#main_content.private_area ul li {
+    border-bottom: 1px dotted #bebdbe;
+    padding: 0em 0em 0.6em 30px;
+    margin-bottom: 0.6em;
+}
+
+#main_content.private_area ul li h3 {
+	margin: 0em;
+	display: inline;
+}
+
+#main_content.private_area ul li p.file_info {
+	margin: 0em 0em 0em 0.4em;
+	display: inline;
+}
+
+#main_content.private_area ul li div.text {
+	margin: 0em;
+	display: none;
+}
+
+/* @end list */
+
+/* @group graphic folders and files */
+
+#main_content.private_area ul.folders li {
+	background: transparent url(../graphic/private_area/private_area_folder_blue.png) left top no-repeat; /* es posible cambiar el color de la carpeta cambmiando el nombre del fichero: blue | purple | green | grey | yellow | orange */
+}
+
+/* grafico por defecto */
+#main_content.private_area ul li {
+	background: transparent url(../graphic/private_area/private_area_file_generic.png) left top no-repeat;
+}
+
+/* graficos segun el tipo mime de los archivos */
+#main_content.private_area ul li.image_jpeg,
+#main_content.private_area ul li.image_gif,
+#main_content.private_area ul li.image_png,
+#main_content.private_area ul li.image_tiff {
+	background: transparent url(../graphic/private_area/private_area_file_image.png) left top no-repeat;
+}
+
+#main_content.private_area ul li.application_pdf {
+	background: transparent url(../graphic/private_area/private_area_file_pdf.png) left top no-repeat;	
+}
+
+#main_content.private_area ul li.application_msword {
+	background: transparent url(../graphic/private_area/private_area_file_doc.png) left top no-repeat;	
+}
+
+/* @end graphic folders and files */

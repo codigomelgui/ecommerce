@@ -1,0 +1,416 @@
+/* hidden */
+.checkout_step_03 .box dt, .checkout_details .box dt
+{
+	position: absolute;
+	left: -9999px;
+	top: -9999px;
+	visibility: hidden;
+}
+
+/* colors */
+#login_point p {
+	color: #58595b;
+}
+
+#languages li a, #languages li, #login_point p.login a, #login_point .logout input
+{
+	color: #0084d5;
+}
+
+/* layout */
+#main_content {
+        width: 100%;
+}
+
+#wrapper div.checkout_account {
+        width: 560px;
+}
+
+#main_content, #additional_content {
+        margin-top: 2em;
+}
+
+#main_content div#anonymous_login label strong {
+        width: 130px;
+}
+#main_content div#anonymous_login label input[type=text] {
+        width: 330px;
+}
+
+#normal_login {
+        margin-bottom: 2em;
+}
+
+#main_content #anonymous_login input[type=text] {
+        width: 180px;
+}
+
+
+#languages {
+	left: auto;
+	right: 216px;
+	top: 133px;
+}
+
+#languages li {
+	margin-left: 2px;
+}
+
+#languages li.first-child, #languages li:first-child
+{
+	background: none !important;
+}
+
+#login_point {
+	position: absolute;
+	left: 0px;
+	top: 133px;
+	float: none;
+	margin-top: 0px;
+	padding: 0px;
+	font-weight: bold;
+}
+
+#login_point .logout {
+	background: none;
+}
+
+#login_point .logout input {
+	background: url(../graphic/common/checkout_header_menu_separator.gif) no-repeat 6px 13%;
+}
+
+#main_content h2, #main_content h3
+{
+	margin-bottom: 1em;
+}
+
+#main_content ol#checkout_steps {
+	list-style: none;
+	margin: 0em 0em 1em 0em;
+	overflow: auto;
+}
+
+#main_content ol#checkout_steps li {
+	float: left;
+	width: 168px;
+	height: 29px;
+	padding-top: 11px;
+	margin-left: 115px;
+	background: url(../graphic/common/checkout_step_background.gif);
+	text-transform: uppercase;
+}
+
+#main_content ol#checkout_steps li.first-child, #main_content ol#checkout_steps li:first-child
+{
+	margin-left: 0px;
+}
+
+#main_content .checkout_step_01 ol#checkout_steps li.step_01 {
+	background-image: url(../graphic/common/checkout_step_background_active.gif);
+}
+
+#main_content .checkout_step_02 ol#checkout_steps li.step_02, #main_content .checkout_step_02 ol#checkout_steps li.step_01
+{
+	background-image: url(../graphic/common/checkout_step_background_active.gif);
+}
+
+#main_content .checkout_step_03 ol#checkout_steps li.step_03, #main_content .checkout_step_03 ol#checkout_steps li.step_02, #main_content .checkout_step_03 ol#checkout_steps li.step_01
+{
+	background-image: url(../graphic/common/checkout_step_background_active.gif);
+}
+
+#main_content ol#checkout_steps li span {
+	float: left;
+	width: 41px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#main_content ol#checkout_steps li strong {
+	padding-left: 13px;
+}
+
+#main_content h2 {
+	clear: both;
+}
+
+#main_content form {
+	position: relative;
+}
+
+#main_content .fields_required {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#main_content .check_radio {
+	padding-left: 150px;
+	padding-bottom: 0.5em;
+}
+
+#main_content label strong {
+        width: 140px;
+}
+
+#main_content .check_radio input {
+	position: relative;
+        top: 2px;
+}
+
+#main_content .check_radio label strong {
+	float: none;
+	font-weight: normal;
+	margin-left: 6px;
+	position: relative;
+	top: 3px;
+}
+
+/* Form errors */
+
+#main_content .form_invalid em {
+        padding-left: 10px;
+        display: inline;
+}
+
+#main_content .form_invalid em span {
+        padding: 0em 0.2em;
+        background-color: #ffcccc;
+        display: inline;
+}
+
+#main_content .form_invalid div.form_invalid_check_radio {
+	margin: 0em 0em 10px 140px;	
+}
+
+/* customize form */
+#main_content div.submit {
+	margin-top: 1em;
+}
+
+select {
+	width: 230px;
+}
+
+/* step 03 */
+#main_content .checkout_step_03 th {
+	text-align: left;
+}
+
+#main_content .checkout_step_03 h2 {
+	margin: 1em 0em 0.5em 0em;
+	padding: 0px;
+	border: 0px;
+}
+
+#main_content .checkout_step_03 h3 {
+	margin: 0em 0em 0.3em 0em;
+	padding: 0px;
+	border: 0px;
+}
+
+.checkout_step_03 td strong {
+	font-weight: normal;
+}
+
+.checkout_step_03 .box, .checkout_details .box {
+	float: left;
+	width: 250px;
+	margin: 1em 30px 3em 0px;
+}
+
+.checkout_step_03 .boxLine, .checkout_details .boxLine {
+	clear: both;
+}
+
+.checkout_step_03 .box dd, .checkout_details .box dd {
+	margin-bottom: 0.2em;
+}
+
+.checkout_step_03 .box_comments, .checkout_details .box_comments {
+	width: 490px;
+}
+
+#main_content .submit_previous {
+	position: relative;
+	border-top: 1px solid #c5c5c5;
+	height: 1px;
+}
+
+#main_content .submit_previous a {
+	position: absolute;
+	left: 0px;
+	top: 13px;
+	border: 2px solid #e6e7e8;
+	font-size: 11px;
+	cursor: pointer;
+	background: #fff;
+	line-height: 1.4em;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+#main_content .submit_previous a:hover {
+	background: #58595b;
+	color: #fff;
+	text-decoration: none;
+}
+
+#main_content p.form_warning {
+	float: none;
+	margin-top: 0;
+	width: auto;
+}
+
+/* details */
+#main_content .checkout_details h2, #main_content .checkout_details h3
+{
+	margin: 0em 0em 0.3em 0em;
+	border-top: 0px;
+	padding-top: 0px;
+}
+
+/* .go_list */
+#main_content.checkout .go_list p {
+	margin: 0px;
+	border: solid #ccc;
+	border-width: 1px 0px;
+}
+
+#main_content.checkout .go_list a {
+	line-height: 2em;
+	background: url(../graphic/common/go_list.gif) no-repeat 0% 50%;
+	padding-left: 8px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/* th & td */
+tr.price {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+tr.price strong {
+	font-weight: normal;
+}
+
+.price_subtotal, .price_tax, .price_shipping, .price_total {
+	text-align: right;
+}
+
+tr.price.subtotal td {
+	border-top: 1px solid #c5c5c5;
+	padding-top: 0.5em;
+}
+
+tr.price.total td {
+	padding-bottom: 1em;
+}
+
+.th_price, .td_price
+{
+	text-align: right !important;
+}
+
+.th_quantity, .th_delete, .td_quantity, .td_delete
+{
+	text-align: center !important;
+}
+
+/* login page (class 'index') */
+#main_content.checkout .index h2 {
+	border-top: 0;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+#main_content.checkout .index #anonymous_login div.submit {
+	width: auto !important;
+	margin-left: 0px;
+	overflow:hidden;
+}
+
+#main_content.checkout .index div#anonymous_login {
+	float: right;
+	width: 217px;
+}
+
+#main_content.checkout .index div#anonymous_login #additional_content {
+	float: none;
+	left: 0px;
+	width: 100%;
+}
+
+#main_content.checkout .index div#anonymous_login #additional_content .block {
+	background-image: url(../graphic/common/box_checkout_type3_bottom.gif);
+}
+
+#main_content.checkout .index div#anonymous_login h3 {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	font-size: 1.333em;
+	font-weight: bold;
+	background-image: url(../graphic/common/box_checkout_type3_top.gif);
+}
+
+#main_content.checkout .index div#anonymous_login h3 span {
+	background-image: url(../graphic/common/box_checkout_type3_top2.gif);
+}
+
+#main_content.checkout .index div#anonymous_login label input {
+	width: 191px !important;
+}
+
+#main_content.checkout .index div#normal_login {
+	float: left;
+	width: 360px;
+}
+
+#main_content.checkout .index div#normal_login fieldset {
+	margin-bottom:20px;
+}
+
+#main_content.checkout .index div#normal_login label strong {
+	width: 120px;
+}
+
+#main_content.checkout .index div#normal_login div {
+	width: 206px;
+	margin-left: 130px;
+}
+
+#main_content.checkout .index div#normal_login input[type="text"], #main_content.checkout .index div#normal_login input[type="password"]
+{
+	width: 200px;
+}
+
+#main_content.checkout #normal_login .form_invalid em {
+	margin-left: -30px;
+}
+
+#main_content.checkout .index p.form_warning {
+	width: 270px;
+}
+
+
+#main_content #normal_login form label strong {
+        width: 115px;
+}
+
+#main_content #normal_login form label input {
+        width: 270px;
+}
+
+body {
+    font: x-small Arial,sans-serif;
+}
+
+
+#footer {
+    background: url("../graphic/common/footer.jpg?226251297377051") repeat-x scroll left top transparent;
+    height: 300px;
+    margin-top: -100px;
+    width: 100%;
+}

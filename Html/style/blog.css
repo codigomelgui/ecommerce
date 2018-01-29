@@ -1,0 +1,174 @@
+/* shared (index, list & item) */
+#main_content.blog ul {
+	margin-left: 0px;
+}
+
+#main_content.blog ul li {
+	padding-left: 0px;
+	background: none;
+}
+
+#main_content.blog .item .post li {
+	margin-left: 0px;
+}
+
+#main_content.blog p.post_date {
+	margin-bottom: 0.2em;
+}
+
+#main_content.blog p.post_comments a {
+	background: url(../graphic/common/blog_icon_balloon.gif) no-repeat 100% 0.2em;
+	padding-right: 20px;
+}
+
+#main_content.blog .post_categories {
+	font-weight: bold;
+	overflow: auto;
+	margin-bottom: 1em;
+}
+
+#main_content.blog .post_categories li {
+	float: left;
+	margin-left: 0px;
+	margin-right: 1em;
+	border-bottom: 0px !important;
+	margin-bottom: 0px;
+}
+
+#main_content.blog .item .post .post_footer {
+	margin-bottom: 0px;
+	border-bottom: 0px;
+}
+
+#main_content.blog .post_footer p {
+	margin-bottom: 0.3em;
+}
+
+/* index & list */
+#main_content.blog .index li, #main_content.blog .list li
+{
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 2.5em;
+}
+
+#main_content.blog .index li li, #main_content.blog .list li li
+{
+	margin-bottom: 0px;
+}
+
+#main_content.blog .index h3, #main_content.blog .list h3
+{
+	margin-bottom: 0.3em;
+}
+
+
+/* item */
+#main_content.blog .item h2 {
+	margin-bottom: 0.3em;
+}
+
+
+#main_content.blog .item .post .go_list {
+	margin-bottom: 4em;
+        clear: left;
+}
+
+#main_content.blog .item h3 {
+	margin-left: 110px;
+	margin-bottom: 1em;
+}
+
+#main_content.blog .item ol {
+	margin-left: 0px;
+}
+
+#main_content.blog .item .comments li {
+	margin-bottom: 1em;
+	border-bottom: 1px solid #ccc;
+	list-style: none;
+}
+
+#main_content.blog .item .comments li h4 a {
+	font-weight: bold;
+}
+
+#main_content.blog .item .results_number {
+	position: absolute;
+	left: 0px;
+	margin-top: -2px;
+	width: 100px;
+	text-align: right;
+	font-weight: bold;
+}
+
+#main_content.blog #comments_send h4 {
+	margin: 2em 0em 0.7em 110px;
+}
+
+#main_content.blog #comments_send div.submit {
+	margin-left: 110px;
+}
+
+/* customize .utilities (item) */
+#main_content.blog .utilities {
+	margin-bottom: 1em;
+}
+
+/* .go_list (index & item) */
+#main_content.blog .go_list p {
+	margin: 0px;
+	border: solid #ccc;
+	border-width: 1px 0px;
+}
+
+#main_content.blog .index .go_list p {
+	margin-top: 4em;
+}
+
+#main_content.blog .go_list a {
+	line-height: 2.4em;
+	background: url(../graphic/common/go_list.png) no-repeat 0% 50%;
+	padding-left: 8px;
+	font-weight: bold;
+}
+
+#main_content.blog .index .go_list p {
+	text-align: right;
+}
+
+#main_content.blog .index .go_list a {
+	background: url(../graphic/common/bullet_raquo_blue.png) no-repeat 100% 50%;
+	padding-right: 8px;
+}
+
+/* customize .pages */
+#main_content.blog .list .pages {
+	margin-top: 4em;
+}
+
+#main_content.blog .item .pages {
+	margin-left: 110px; /* align with comments */
+	margin-top: -0.8em;
+}
+
+/* date_list */
+#main_content.blog .date_list h2 {
+	padding-bottom: 1.5em;
+	border-bottom: 1px solid #ccc;
+}
+
+#main_content.blog .date_list h3 {
+	margin-left: 5px;
+	margin-bottom: 1em;
+}
+
+#main_content.blog .date_list ul {
+	padding-bottom: 0.7em;
+	border-bottom: 1px solid #ccc;
+	padding-left: 35px;
+}
+
+#main_content.blog .date_list .day a {
+	color: #58595b;
+	font-weight: normal;
+}

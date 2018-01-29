@@ -1,0 +1,1254 @@
+/* @group RESET STYLES */
+
+a {text-decoration:none}
+ul,ol{list-style:none}
+h1,h2,h3,h4,h5,h6,pre,code{font-size:1em}
+*{margin:0px;padding:0px}
+ul,ol,li,dl,dd,dt,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input,textarea{line-height:1}
+fieldset,a img{border:none}
+
+/* @end RESET STYLES */
+
+/* @group GENERAL STYLES */
+
+/* font-sizes */
+body {
+	font: x-small Arial,sans-serif; /* 10px, as a base */
+}
+
+/* Imagenes flotadas */
+
+div.simple_content, div.section_presentation {
+	overflow: hidden;
+}
+
+div#wrapper div#main_content p.image,
+div#wrapper div#additional_content p.image {
+        float: left;
+        margin: 0px 10px 10px 0px;
+        padding-right: 0px;
+}
+
+div#wrapper div#additional_content div.block p.image {
+        margin-left: 10px;
+}
+
+div.image div.text {
+        clear: left;
+}
+
+/* 12px, default size */
+#wrapper {
+	font-size: 1.2em;
+}
+
+input, textarea, select
+{
+	font-family: Arial, sans-serif;
+}
+
+/* 10px */
+#navigation_footer li a, #languages li, #navigation_tools li, #login_point .logout, #login_point .login, #main_content .go_list a, #main_content .utilities a, #home_news p.date, #main_content.product_services .go_list a, #main_content.schedule .index li p.date .month, #main_content.news .item p.date, #main_content.blog .post_categories, #additional_content_help, #additional_content_offers .more_offers a, #main_content.e_commerce .index .offers .ecommerce_actions strong, #additional_content_offers .ecommerce_actions strong, #main_content.e_commerce .list .product_list .ecommerce_actions strong, #main_content.e_commerce .basket_actions, #main_content.e_commerce .light_box p.go_item, #main_content.image_gallery .item .image_navigation li, #main_content.e_commerce div.submit input, #content_wrapper #additional_content_offers div.submit input
+{
+	font-size: x-small;
+}
+
+/* 11px */
+input, textarea, select, #login_point .user_name, td, #content_wrapper form div.submit input, #home_news p, #main_content #home_news h4, #home_activities p, #home_activities li, #main_content.schedule .item div.image .text, #main_content.news .item div.image .text, #additional_content_login a, #main_content.image_gallery .index li p, #main_content.image_gallery .list li p, #main_content.image_gallery .text, #additional_content_catalog li, #additional_content_catalog p, #main_content.checkout .fields_required, #man_content.checkout .submit_previous a, #main_content.e_commerce .item .price, #main_content .form_invalid em, #main_content.login li, #main_content.checkout .index li, #main_content.send h3, #main_content.send p, #additional_content p.view_all
+{
+	font-size: 0.92em;
+}
+
+/* 12px */
+#navigation_main li a, #main_content.schedule .list h3, #main_content.result_search li h3, #main_content.blog .item li h4, #main_content.image_gallery .item li h4, #main_content.e_commerce .index .offers li h3, #main_content.e_commerce .list .product_list li h3, #main_content.e_commerce .item h3, #main_content.links .pages li a
+{
+	font-size: 1em;
+}
+
+/* 14px */
+#main_content h5, #main_content.product_services li h3, #main_content.clients li h3, #main_content.schedule h3, #main_content.news h3, #main_content.files li h3, #main_content.files li .file_info, #main_content.links li h3, #main_content.links li a, #main_content.image_gallery li h3, #main_content.e_commerce .index .offers .ecommerce_actions .sales_price, #additional_content_offers .ecommerce_actions .sales_price, #main_content.e_commerce .list .product_list .ecommerce_actions .sales_price, #main_content.e_commerce .new_products h3, #main_content.e_commerce .new_products .price {
+	font-size: 1.16em;
+}
+
+/* 16px */
+#main_content li h3, #main_content h4, #additional_content h3, #main_content.home h3, #main_content.blog .item h3, #main_content.blog .list_date h3, #main_content.e_commerce .highlight h2, #main_content.image_gallery .item h3, #main_content.home h2
+{
+	font-size: small;
+}
+
+/* 18px */
+#main_content h3, #main_content.schedule .index li p.date .day, #main_content.blog li h3, #main_content.e_commerce .item .price strong {
+	font-size: large;
+}
+
+/* 20px */
+#main_content h2, #main_content.register h3, #main_content.e_commerce .highlight .price, #main_content.e_commerce .item .price, #main_content.checkout h3, #main_content.checkout ol#checkout_steps li span {
+	font-size: 1.66em;
+}
+
+/* when it's necessary to avoid accumulating font modifications */
+#home_news .go_list a, #home_activities .go_list a, #additional_content_catalog p.check_basket, #additional_content_offers p.more_offers, #main_content.image_gallery div li .text p
+{
+	font-size: 1em; /* size is already set in li */
+}
+
+/* colors */
+body, input, textarea, select, #navigation_main li a:hover, #navigation_main li.selected a
+{
+	color: #58595b;
+}
+
+a, #content_wrapper form div.submit input, #main_content.e_commerce .basket_actions input, #login_point .logout input
+{
+	color: #0084d5;
+}
+
+/* misc */
+a:hover {
+	text-decoration: underline;
+}
+
+/* tables */
+table {
+	margin-top: 0em;
+	margin-bottom: 1em;
+	/*border-collapse: collapse; */
+	width: 100%;
+	border: solid #c5c5c5;
+	border-width: 1px 0px;
+}
+
+th {
+	padding: 0.4em 0em;
+	border-bottom: 1px solid #c5c5c5;
+	font-weight: bold;
+	text-align: left;
+}
+
+td {
+	padding: 0.4em 0em;
+}
+
+div.text {
+    margin-bottom: 1em;
+}
+
+.more_info {
+        text-align: right;
+}
+
+/* @end GENERAL STYLES */
+
+/* @group CONTENT WRAPPER */
+
+#section_presentation {
+	margin-bottom: 1em;
+        overflow: hidden;
+}
+
+#content_wrapper label {
+	display: block;
+	clear: both;
+	margin-bottom: 0.7em;
+}
+
+#content_wrapper select {
+	border: 1px solid #bcbec0;
+}
+
+#content_wrapper input[type=text], #main_content input[type=password]
+{
+	border: 1px solid #bcbec0;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+#content_wrapper input.text, #content_wrapper input.password, #content_wrapper textarea
+{
+	border: 1px solid #bcbec0;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+#content_wrapper form div.submit {
+	text-align: right;
+}
+
+#content_wrapper form div.submit input {
+	border: 2px solid #e6e7e8;
+	cursor: pointer;
+	background: #fff;
+}
+
+#content_wrapper form div.submit input:hover {
+	background: #58595b;
+	color: #fff;
+}
+
+#content_wrapper p.image a img, #content_wrapper div.images a img
+{
+	border: 3px solid #d7d8d9;
+	padding: 1px;
+}
+
+#content_wrapper p.image a:hover img, #content_wrapper div.images a:hover img
+{
+	border: 1px solid #00aeef;
+	padding: 3px;
+}
+
+#content_wrapper div#home_banner p.image a img {
+        border: 0px;
+        padding: 0px;
+}
+
+#content_wrapper div#home_banner p.image a img:hover {
+        border: 0px;
+        padding: 0px;
+}
+
+#content_wrapper p.image.left {
+	float: left;
+	margin-right: 1em;
+}
+
+#content_wrapper p.image.right {
+	float: right;
+	margin-left: 1em;
+}
+
+#content_wrapper div.images.left {
+	float: left;
+	margin-right: 1em;
+}
+
+#content_wrapper div.images.right {
+	float: right;
+	margin-left: 1em;
+}
+
+#content_wrapper div.images a {
+	display: block;
+	margin-bottom: 1em;
+}
+
+#content_wrapper div.images.center {
+	margin: 1em 0;
+	text-align: center;
+}
+
+#content_wrapper div.images.center a {
+	display: inline;
+}
+
+/* @end CONTENT WRAPPER */
+
+/* @group MAIN CONTENT */
+
+#main_content p, #main_content li
+{
+	line-height: 1.2;
+}
+
+#main_content h2 {
+    background: url("../graphic/common/h2.jpg?226251297380385") no-repeat scroll left top transparent;
+    color: #FFFFFF;
+    font-weight: normal;
+    height: 51px;
+    margin-bottom: 0.8em;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#main_content h3 {
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	font-weight: normal;
+}
+
+#main_content h4 {
+	margin-top: 1.5em;
+	margin-bottom: 0.5em;
+	font-weight: normal;
+}
+
+#main_content h5 {
+	margin-top: 2em;
+	margin-bottom: 0.5em;
+	font-weight: bold;
+}
+
+#main_content h6 {
+	margin-top: 2em;
+	margin-bottom: 0.5em;
+	font-weight: bold;
+}
+
+/* Remove margin top from headings that are inside lists or DIVs */
+#typology * h3, #typology * h4
+{
+	margin-top: 0px;
+}
+
+#main_content p {
+	margin-bottom: 1em;
+}
+
+/* lists */
+#main_content li {
+	margin-bottom: 0.6em;
+}
+
+#main_content ul {
+	margin-left: 32px;
+}
+
+#main_content ul li {
+	background: url(../graphic/common/bullet_raquo_black.png) no-repeat 0em 0.3em;
+	padding-left: 10px;
+}
+
+#main_content ol {
+	margin-left: 2em;
+	list-style: decimal;
+}
+/* Note: these styles will have to be overwritten when other styling for LI is required */
+
+#main_content .text li {
+	padding-left: 0px !important;
+	float: none !important;
+	width: auto !important;
+	margin-top: 0px !important;
+	background: none !important;
+}
+
+#main_content .text ul li {
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+/* forms (in #main_content) */
+#main_content form {
+	margin-bottom: 0.2em;
+}
+
+#main_content label strong {
+	float: left;
+	width: 100px;
+	padding-right: 10px;
+	text-align: right;
+}
+
+#main_content input[type=text], #main_content input[type=password], #main_content textarea
+{
+	width: 380px;
+}
+
+#main_content textarea {
+	height: 76px;
+}
+
+#wrapper #main_content p.form_warning {
+	margin: 0em 0em 2em 0em;
+	background: url(../graphic/common/forms_error_sign.gif) no-repeat 9px 50%;
+	color: #c4161c;
+	border: solid #c4161c;
+	border-width: 1px 0px;
+	padding: 14px 0px 14px 66px;
+	/*min-height: 28px; */
+}
+
+#main_content p.form_warning strong {
+	display: block;
+}
+
+#content_wrapper .form_invalid input, #content_wrapper .form_invalid textarea, #content_wrapper .form_invalid select
+{
+	border-color: #c4161c;
+}
+
+#content_wrapper .form_invalid em {
+	display: block;
+	color: #c4161c;
+	font-style: normal;
+}
+
+#main_content .form_invalid em {
+	padding-left: 150px;
+}
+
+#main_content.login .index .form_invalid em, #main_content.checkout .index .form_invalid em
+{
+	padding-left: 160px;
+}
+
+#content_wrapper .form_invalid em span {
+	display: block;
+	padding-top: 0.1em;
+}
+
+/* .utilities */
+#main_content .utilities {
+	margin-bottom: 1.5em;
+	border: solid #ccc;
+	border-width: 1px 0px;
+	text-align: right;
+}
+
+#main_content .utilities li {
+	padding-left: 0px;
+	background: none;
+	display: inline;
+	border-left: 1px solid #828384;
+	padding-right: 3px;
+}
+
+#main_content .utilities li.first-child, #main_content .utilities li:first-child {
+	border-left: 0px;
+}
+
+#main_content .utilities a {
+	line-height: 2.4em;
+	padding-left: 8px;
+	font-weight: bold;
+}
+
+/* @end MAIN CONTENT */
+
+/* @group breadcrumb */
+
+ol#breadcrumb {
+	background-color: #eeeeee;
+	margin: 0em 0em 1em 0em;
+	overflow: hidden; /* debe dejarse en hidden para ocultar la flecha de fondo del primer elemento, que al tener un margen negativo queda fuera del bloque */
+}
+
+ol#breadcrumb li {
+	list-style-type: none;
+        float: left;
+	background: transparent url(../graphic/private_area/private_area_arrow.png) left center no-repeat;	
+	margin: 0em 1.2em 0em -0.6em; /* el ultimo valor (margin-left) siempre debe ser negativo, para ocultar la flecha del primer elemento */
+	padding-left: 0.6em; /* este valor debe ser igual que el ultimo valor del margin (margin-left) pero en positivo, para compensar el margen negativo */
+}
+
+ol#breadcrumb li a,
+ol#breadcrumb li span {
+    	padding: 0.6em 0em 0.6em 0em;
+	display: block;
+	margin-left: 0.6em;
+}
+
+/* @end breadcrumb */
+
+/* @group COMMON ELEMENTS */
+
+/*#branding_site_logo a, .image a
+{
+	outline: none;
+}
+*/
+
+/* #quick_search */
+#quick_search label {
+        margin: 0em;
+}
+
+div#content_wrapper #quick_search input[type=text] {
+	width: 129px;
+	height: 16px;
+	padding: 1px 4px 0px 4px;
+	border: 0px;
+        border: 1px solid #BCBEC0;
+        float:left;
+        margin-left: 10px;
+}
+
+#quick_search input[type=submit] {
+	padding: 0px;
+	background: #ffffff;
+	cursor: pointer;
+        border: 2px solid #E6E7E8;
+        float: right;
+        margin-right: 15px; 
+}
+
+/* login_point */
+div#login_point {
+	padding: 0.8em;
+        background:url(../graphic/common/area.png) left top no-repeat;
+        height:40px;
+        overflow: hidden;
+}
+p.login a{
+
+   color:#fff;
+}
+#quick_search{
+
+        background:url(../graphic/common/search.jpg) left top no-repeat;
+        height:44px;
+        padding-top: 12px;
+
+}
+
+#wrapper div#login_point p {
+	font-size: small;
+	margin-bottom: 0em;
+	float: left;
+        padding-top: 1px;
+}
+
+#wrapper div#login_point form  {
+	margin-bottom: 1em;
+	font-size: small;
+	float: right;
+}
+
+#login_point ul {
+    clear: both;
+}
+
+#login_point ul li {
+    background:transparent url(../graphic/common/bullet_raquo_blue.png) 0 0.2em no-repeat;
+    margin-bottom:0.6em;
+    padding-left:11px;
+}
+
+#login_point .logout input
+{
+        background-color: #ffffff;
+        border: 2px solid #e6e7e8;
+        cursor: pointer;
+	width: auto;
+	overflow: visible;
+        color: #0084D5;
+}
+
+/* .pages */
+.pages ul, .pages li, .pages p
+{
+	/* need to reset first */
+	position: static !important;
+	clear: none !important;
+	margin: 0px !important;
+	padding: 0px !important;
+	border: 0px !important;
+	/*min-height: 0px !important; */
+	height: auto !important;
+	background: none !important;
+	width: auto !important;
+}
+
+.pages {
+	height: 2em;
+	border: solid #ccc;
+	border-width: 1px 0px;
+}
+
+.pages p, .pages li
+{
+	line-height: 2em !important;
+	height: 2em !important;
+}
+
+.pages p {
+	float: left;
+}
+
+.pages ul {
+	float: right;
+}
+
+.pages li {
+	float: left;
+	background: url(../graphic/common/pages_separator.gif) no-repeat 0% 50% !important;
+	padding-left: 7px !important;
+	padding-right: 6px !important;
+}
+
+.pages li.first-child, .pages li:first-child
+{
+	background: none !important;
+	padding-left: 0px !important;
+}
+
+.pages li.previous a, .pages li.next a
+{
+	display: block;
+	line-height: 2em;
+	width: 6px;
+	height: 2em;
+	background: url(../graphic/common/pages_next.gif) 0% 55% no-repeat;
+}
+
+.pages li.previous a:hover, .pages li.next a:hover {
+	background-position: -34px 55%;
+}
+
+.pages li.previous a {
+	background-image: url(../graphic/common/pages_previous.gif);
+}
+
+/* sponsors */
+#sponsors {
+	border: 1px solid #eee;
+	padding: 3px;
+	height: 25px;
+}
+
+#sponsors li {
+	float: left;
+}
+
+#sponsors a {
+	display: block;
+	height: 25px;
+}
+
+#sponsor_empresa01 a {
+	width: 191px;
+	background: url(../graphic/common/sponsor_1.gif);
+}
+
+#sponsors a:hover {
+	background-position: 0px -25px;
+}
+
+/* @end COMMON ELEMENTS */
+
+/* @group CONTACT */
+
+#main_content.contact li li {
+	margin-bottom: 0.6em;
+}
+
+#main_content.contact li li span {
+	font-weight: bold;
+}
+
+#main_content.contact a.email {
+    display: block;
+}
+
+/* @end CONTACT */
+
+/* @group ADDRESSES */
+
+#main_content.addresses h3 {
+	font-weight: bold;
+	margin-bottom: 0.4em;
+}
+
+#main_content.addresses .email {
+	display: block;
+}
+
+/* adjust generic_list */
+#main_content.addresses li div.map {
+	float: left;
+	margin: 0px 10px 0px 0px;
+}
+
+#main_content.addresses iframe {
+	border: 1px solid #b7ae9d;
+}
+
+div#wrapper #main_content.addresses li p.image {
+	float: right;
+	margin: 0px 0px 0px 10px;
+}
+
+#main_content.addresses ul ul {
+	position: relative;
+	top: 1em;
+	background: none;
+	margin: 0em 0em 2em 0em;
+	padding-bottom: 0px;
+}
+
+#main_content.addresses ul li li {
+	clear: none;
+	margin: 0px;
+	padding: 0px !important;
+	background: none !important;
+	overflow: visible;
+}
+
+#main_content.addresses ul li li span {
+	font-weight: bold;
+}
+
+/* @end ADDRESSES */
+
+/* @group FILES */
+
+#main_content.files ul {
+	margin-left: 0px;
+}
+
+#main_content.files ul li {
+	padding-left: 0px;
+	background: none;
+	margin-bottom: 2.5em;
+}
+
+#main_content.files li h3 {
+	display: inline;
+	padding-right: 0.3em;
+}
+
+#main_content.files li .file_info {
+	display: inline;
+}
+
+#main_content.files li p {
+	margin-top: 0.5em;
+}
+
+/* @end FILES */
+
+/* @group LINKS */
+
+#main_content.links ul {
+    margin-left: 0px;
+    margin-top: 2em;
+}
+
+#main_content.links ul li {
+    padding-left: 0px;
+    background: none;
+    margin-bottom: 2.5em;
+}
+
+#main_content.links h3 {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+#main_content.links li p, #main_content.links li .text
+{
+    margin-bottom: 0.2em;
+}
+
+#main_content.links li .text p
+{
+    margin-bottom: 0em;
+}
+
+/* @end LINKS */
+
+/* @group SITE MAP */
+
+#main_content.site_map ul {
+    border-left: 1px solid #c5c5c5;
+    margin-left: 0px;
+    margin: 0px;
+}
+
+#main_content.site_map ul li {
+    position: relative;
+    top: 0.64em;
+    margin-bottom: 0px;
+    padding-top: 1.3em;
+    background: url(../graphic/common/site_map_arrow.gif) no-repeat 0em 1.7em;
+    padding-left: 40px;
+}
+
+#main_content.site_map #main_menu li.first-child, #main_content.site_map
+#main_menu li:first-child
+{
+    padding-top: 0em;
+    background-position: 0em 0.4em;
+}
+
+/* @end SITE MAP */
+
+/* @group REGISTER & SEND */
+
+#main_content.register h2, #main_content.send h2
+{
+	margin-bottom: 1em;
+}
+
+/* customize form */
+#main_content.register label strong, #main_content.send label strong
+{
+	width: 140px;
+}
+
+#main_content.register input[type=text], #main_content.register input[type=password], #main_content.register textarea, #main_content.send input[type=text], #main_content.send input[type=password], #main_content.send textarea {
+	width: 404px;
+}
+
+#main_content.register select, #main_content.send select
+{
+	width: 410px;
+}
+
+#main_content.register div.submit, #main_content.send div.submit
+{
+	margin-left: 150px;
+}
+
+#main_content.send h3 {
+	margin-top: 4em;
+	font-weight: bold;
+}
+
+/* @end REGISTER & SEND */
+
+/* @group LOGIN & CHECKOUT LOGIN */
+
+#main_content.login form, #main_content.checkout .index form
+{
+	margin-bottom: 1em;
+}
+
+#main_content.login label strong, #main_content.checkout .index label strong
+{
+	width: 150px;
+}
+
+#main_content.login input[type=text], #main_content.login input[type=password], #main_content.checkout .index input[type=text], #main_content.checkout .index input[type=password]
+{
+	width: 265px;
+}
+
+#main_content.login div.submit, #main_content.checkout .index div.submit
+{
+	margin-left: 160px;
+	width: 271px;
+}
+
+#main_content.login ul, #main_content.checkout .index ul
+{
+	margin-left: 0px;
+}
+
+#main_content.login li, #main_content.checkout .index li
+{
+	background: none;
+	padding-left: 0px;
+	margin-left: 160px;
+	margin-bottom: 0.2em;
+}
+
+/* @end LOGIN & CHECKOUT LOGIN */
+
+/* @group RESULT SEARCH */
+
+#main_content.result_search ol {
+	margin-left: 0px;
+	padding-bottom: 1.5em;
+	list-style: none;
+}
+
+#main_content.result_search li {
+	position: relative;
+	padding-left: 3em;
+}
+
+#main_content.result_search li h3 {
+	margin-bottom: 0.2em;
+}
+
+#main_content.result_search .results_number {
+	position: absolute;
+	left: 0px;
+	top: -0.2em;
+	width: 2em;
+	text-align: right;
+}
+
+#main_content.result_search .pages li { /* reset styles for pagination */
+	position: static;
+	padding-left: 7px;
+}
+
+/* form */
+#main_content.result_search form {
+	height: 30px;
+	padding-top: 10px;
+	padding-left: 10px;
+	border: 1px solid #e4e4e4;
+	margin-bottom: 1em;
+}
+
+#main_content.result_search form label {
+	margin-bottom: 0px;
+}
+
+#main_content.result_search form input {
+	float: left;
+	height: 15px;
+	padding-top: 3px;
+	margin-right: 5px;
+	width: 390px;
+}
+
+#main_content.result_search form div.submit input {
+	float: left;
+	height: auto;
+	padding-top: 0px;
+	margin-right: 0px;
+	width: auto;
+}
+
+#main_content.result_search form div.submit {
+	background: none;
+}
+
+/* @end RESULT SEARCH */
+
+/* @group GENERIC LIST */
+
+#main_content.clients ul, #main_content.contact ul, #main_content.addresses ul
+{
+	margin: 2em 0em;
+	padding-bottom: 5px;
+}
+#main_content.clients ul li, #main_content.contact ul li, #main_content.addresses ul li
+{
+	clear: both;
+	margin: 0px;
+	padding: 12px 10px 6px 10px;
+	overflow: auto;
+        border: 1px solid #e4e4e4;
+        background: none;
+        margin-bottom: 1em;
+}
+
+#main_content.clients ul li li, #main_content.contact ul li li, #main_content.addresses ul li li {
+        border: none;
+        margin-bottom: 0;
+}
+
+#main_content.clients ul li p.image {
+	margin-left: -201px;
+	display: inline;
+}
+
+#main_content.contact ul li p.photo {
+	margin-left: 5px;
+	display: inline;
+}
+
+#main_content.addresses ul li div.map {
+	display: inline;
+}
+
+#main_content.clients li h3, #main_content.contact li h3
+{
+	margin-bottom: 0.5em;
+}
+
+#main_content.contact li h3 .n
+{
+	font-weight: bold;
+}
+
+#main_content.clients li h3 em, #main_content.contact li h3 .org
+{
+	border-left: 2px solid #acacad;
+	padding-left: 5px;
+	font-style: normal;
+	font-weight: normal;
+}
+
+#main_content.clients p, #main_content.contact p, #main_content.addresses p
+{
+	margin: 0.8em 0em 0em 0em;
+}
+
+#main_content.clients li p {
+	line-height: 1.2;
+}
+
+#main_content.clients li p.image, #main_content.contact li p.photo
+{
+	float: left;
+	margin: 0px 10px 0px 0px;
+}
+
+#main_content.clients li p.image img, #main_content.contact li p.photo img
+{
+	padding: 0px;
+	border: 1px solid #ccc;
+}
+
+/* lists inside lists */
+#main_content.clients ul ul, #main_content.contact ul ul
+{
+	margin-top: 1em;
+	margin-bottom: 0px;
+	background: none;
+	padding: 0px;
+}
+
+#main_content.clients li li, #main_content.contact li li
+{
+	clear: none;
+	padding: 0px !important;
+	background: none !important;
+}
+
+/* @end GENERIC LIST */
+
+/* @group ADDITIONAL CONTENT */
+
+#additional_content_misc .block p, #additional_content_misc .block li
+{
+	line-height: 1.3;
+}
+
+#additional_content_misc .ad img {
+	border: solid #c5c5c5;
+	border-width: 1px 0px;
+	padding: 2px 0px;
+}
+
+#additional_content_misc .ad a:hover img {
+	border-color: #00aeef;
+}
+
+/* forms (in #additional_content_misc) */
+#additional_content_misc form {
+	margin-bottom: 1em;
+}
+
+#additional_content_misc div.block form fieldset label input, #additional_content_misc div.block form fieldset label textarea {
+        width: 184px;
+}
+
+#additional_content_misc div.block form fieldset label select {
+        width: 190px;
+}
+
+/*
+#additional_content_misc input[type=text], #additional_content_misc input[type=password]
+{
+	width: 191px;
+}
+
+#additional_content_misc input.text, #additional_content_misc input.password, #additional_content_misc textarea
+{
+	width: 191px;
+}
+*/
+#additional_content_misc select {
+	width: 197px;
+}
+
+#additional_content_misc textarea {
+	height: 55px;
+}
+
+#additional_content h3 {
+    background: url("../graphic/common/h3.png?226251297377806") repeat-x scroll left top transparent;
+    color: #FFFFFF;
+    height: 67px;
+    margin-left: -5px;
+    width: 223px;
+}
+
+#additional_content h3 span {
+	display: block;
+	/*min-height: 19px; /* imgHeight - vertical padding */
+	margin-bottom: 10px;
+	padding: 14px 9px 12px 9px;
+}
+
+#additional_navigations_categories, #additional_navigations_archive, #additional_content_misc .block
+{
+    background: url("../graphic/common/additionalbottom.png") repeat-x scroll left bottom transparent;
+    margin-bottom: 8px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+#additional_navigations_categories ul, #additional_navigations_archive ul, #additional_content_misc .block p, #additional_content_misc .block ul, #additional_content_misc .block form, #additional_content_misc .block h4, #additional_content_misc .text, #additional_content_misc div.no-elements
+{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#additional_content_misc .text p {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#additional_content_misc p {
+	margin-bottom: 0.5em;
+}
+
+#additional_content_misc .block .more_info {
+	margin-bottom: 0px;
+        clear: both;
+}
+
+#additional_content_misc p.image {
+	margin-bottom: 0.3em;
+}
+
+/* additional_navigations_categories & archive */
+#additional_navigations_categories li, #additional_navigations_archive li, .block li 
+{
+	line-height: 1.3;
+	background: url(../graphic/common/bullet_raquo_blue.png) no-repeat 0em 0.4em;
+	padding-left: 11px;
+	margin-bottom: 0.6em;
+}
+
+#additional_navigations_categories li li, .block li li 
+{
+	background: url(../graphic/common/bullet_disc_blue.png) no-repeat 0em 0.4em;
+	margin-top: 0.3em;
+	margin-bottom: 0px;
+}
+
+/* additional_content_login */
+#additional_content_login form {
+	margin-bottom: 0.4em;
+}
+
+/* #additional_content_catalog (& children DIVs) */
+#additional_content_catalog h4 {
+	margin-bottom: 0.5em;
+	padding: 0.3em 0.7em;
+	background: #e5e5e5;
+}
+
+#additional_content_my_account li {
+	float: right;
+}
+
+#additional_content_my_account li.first-child, #additional_content_my_account li:first-child
+{
+	float: left;
+}
+
+#additional_content_my_cart p {
+	margin-bottom: 0.5em;
+}
+
+#additional_content_my_cart p.check_basket, #additional_content_offers p.more_offers
+{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	text-align: right;
+        background: #F2F2F2;
+	padding: 3px 0px;
+	font-weight: normal;
+        font-size: 11px;
+}
+
+#additional_content_my_cart p.check_basket a, #additional_content_offers p.more_offers a
+{
+	border: 2px solid #e6e7e8;
+	padding: 2px;
+	cursor: pointer;
+	background: #fff;
+}
+
+
+#additional_content_my_cart p.check_basket a:hover, #additional_content_offers p.more_offers a:hover, #additional_content_help a:hover
+{
+	background: #58595b;
+	color: #fff;
+	text-decoration: none;
+}
+
+#additional_content_help h4 {
+	background: none;
+	padding: 0px;
+}
+
+#additional_content_help a, #additional_content_help strong
+{
+	float: left;
+	border: 1px solid #c5c5c5;
+	padding: 0.4em;
+}
+
+#additional_content_help strong {
+	float: right;
+}
+
+#additional_content_my_account, #additional_content_help
+{
+	overflow: auto;
+}
+
+#additional_content_my_cart h4 {
+	margin-top: 2em;
+}
+
+#additional_content_my_cart .no-elements {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/* additional_content_map */
+#additional_content_map iframe {
+	border: 1px solid #b7ae9d;
+}
+
+#additional_content_map ul li span {
+	font-weight: bold;
+}
+
+#additional_content_map div.vcard {
+	margin-left: 9px;
+	margin-right: 6px;
+}
+
+#additional_content_map div.vcard p, #additional_content_map div.vcard ul
+{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#additional_content_map div.map, #additional_content_map div.adr, #additional_content_map div.vcard ul
+{
+	margin-bottom: 1em;
+}
+
+#additional_content_map a.email {
+	display: block;
+	cursor: pointer;
+}
+
+#additional_content_map div.geo {
+	position: absolute;
+	left: -9999px;
+	top: -9999px;
+	visibility: hidden;
+}
+
+/* @end ADDITIONAL CONTENT */
+
+#additional_content_misc #location_location_1 .geo{
+                display: none;
+}
+
+/* @group FEED ICON */
+
+div#additional_content div#feed_subscription {
+	border: 0em;
+	padding: 0em;
+	margin: 0em 0em 10px 0em;
+}
+
+div#additional_content div#feed_subscription p {
+	margin: 0em;	
+}
+
+div#additional_content div#feed_subscription p a {
+	background: transparent url(../graphic/common/feed-icon.png) 0em 0em no-repeat;
+	padding: 0em 0em 0em 18px;
+	height: 14px;
+	display: block;
+}
+
+/* @end FEED ICON */

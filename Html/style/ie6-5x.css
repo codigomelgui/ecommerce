@@ -1,0 +1,477 @@
+body {
+	text-align: center;
+}
+
+#header {
+zoom: 1;
+}
+
+#branding_site_title {
+zoom: 1;
+}
+
+#main_content div.category_list ul {
+	overflow: visible;
+}
+
+div.simple_content, div.section_presentation {
+	overflow: visible;
+}
+
+#main_content.image_gallery .index li, #main_content.image_gallery .list li {
+	overflow: visible;
+	display: inline;
+	margin-right: 0px;
+}
+
+#main_content.video_gallery .category_list ul {
+	overflow: visible;	
+}
+
+#additional_navigations_categories li, #additional_navigations_archive li, .block li,
+#additional_navigations_categories li li, #additional_navigations_archive li li, .block li li {
+        background-position: 0px 7px;
+}
+
+#login_point ul li {
+        background-position: 0px 4px;
+}
+
+
+#header, #navigation_main, #content_wrapper, #footer
+{
+	text-align: left;
+}
+
+#wrapper, fieldset, ul, li, dt, dd, a, #main_content.blog ol li, #main_content.image_gallery ol li, #main_content.result_search ol li, #main_content .form_invalid em, #main_content.product_services .item div.image, #main_content.schedule .index div.highlight, #additional_content_catalog, #additional_navigations_categories, #additional_content_offers, .checkout div, #main_content.news .highlight, #main_content.blog .go_list, #main_content.e_commerce .index .go_list, #additional_content_misc .block, p.form_warning, #main_content.site_map #typology
+{
+	height: 1%;
+}
+
+div.simple_content {
+        zoom: 1;
+        height: auto!important;
+}
+
+
+#main_content #anonymous_login input[type="text"]{
+        width: 180px;
+}
+
+/*
+div#wrapper div#main_content .image,
+div.text {
+        display: inline;
+}
+*/
+
+/* fix cases where previous hack is a problem */
+#navigation_skills ul, #footer ul, #main_content .go_list a, #main_content.site_map ul, ol li, div.images a, #languages ul
+{
+	height: auto;
+}
+
+/* fix overflow bugs (when clearing floats) */
+#main_content.clients ul li, #main_content.contact ul li, #main_content.addresses ul li, #main_content.news .highlight, #main_content.schedule .highlight, #main_content.image_gallery .index ul, #main_content.image_gallery .list ul, #main_content.image_gallery .item .image_navigation, #main_content.checkout .index #anonymous_login div.submit, #main_content ul.product_images, #main_content ul.image_list {
+	overflow: visible;
+}
+
+/* layout.css */
+
+#additional_content_my_cart p.check_basket a, #additional_content_offers p.more_offers a, #additional_content_cart p.check_basket {
+        padding: 1px 2px;
+}
+
+#languages ul {
+        position: relative;
+}
+
+#main_content {
+	height: 300px;
+}
+
+#navigation_tools {
+	background: transparent;
+}
+
+#additional_content p.image
+{
+        display: inline;
+}
+
+
+/* navigation.css */
+
+#navigation_main li {
+	display: inline;
+}
+
+#navigation_main li a {
+	float: left;
+	display: inline;
+}
+
+/* basic.css */
+caption {
+	text-indent: -1600px;
+	font-size: 0px;
+}
+
+
+#main_content input.text, #main_content input.password, #main_content textarea
+{
+	width: 441px;
+}
+
+#main_content.checkout .index input[type=text], #main_content.checkout .index input[type=password]
+{
+	width: 300px;
+}
+
+#main_content.login div.submit, #main_content.checkout .index div.submit
+{
+	margin-left: 163px;
+	width: 268px;
+}
+
+#main_content.login div.submit input, #main_content.checkout .index div.submit input
+{
+	float: right;
+}
+
+#main_content .form_invalid em {
+	padding-left: 10px;
+}
+
+#main_content.login .form_invalid em, #main_content.checkout .index .form_invalid em
+{
+	padding-left: 163px;
+}
+
+#quick_search fieldset {
+	right: 170px;
+}
+
+#quick_search input.text {
+	position: absolute;
+	right: 19px;
+	top: 4px;
+	width: 90px;
+	height: 14px;
+	padding: 3px 4px 0px 4px;
+	border: 0px;
+	background: url(../graphic/common/quick_search_input.gif);
+}
+
+#quick_search input.submit {
+	position: absolute;
+	right: 0px;
+	top: 5px;
+	width: 17px;
+	height: 17px;
+	border: 0px;
+	padding: 0px;
+	background: url(../graphic/common/quick_search_submit.gif);
+	padding-left: 17px;
+	cursor: pointer;
+}
+
+#main_content.register input[type='text'], #main_content.register input[type='password'], #main_content.send input[type='text'], #main_content.send input[type='password']
+{
+	width: 401px;
+}
+
+#main_content.register textarea, #main_content.send textarea
+{
+	width: 401px;
+}
+
+
+#main_content.register select, #main_content.send select
+{
+	width: 407px;
+}
+
+#main_content.send .form_invalid em {
+	padding-left: 153px;
+}
+
+#main_content.send div.submit {
+	margin-left: 153px;
+}
+
+#main_content.clients li p.image a:hover img {
+	border-color: #ccc;
+}
+
+#additional_content h3 {
+	height: 31px;
+}
+
+#additional_content_my_cart p.check_basket {
+	padding-top: 3px;
+}
+
+#additional_content_offers p.more_offers {
+	padding-top: 1px;
+}
+
+#main_content.addresses iframe {
+	height: 125px;
+}
+
+/* home.css */
+#main_content.home #home_products {
+        margin-right: 20px;
+}
+
+/* blog.css */
+
+#main_content.blog ul.post_categories {
+	height: 1.5em;
+}
+
+/* schedule.css */
+#main_content.schedule .item dl.vevent {
+    width: 28.6em;
+}
+
+#main_content.schedule .list ul {
+    overflow: visible;
+}
+
+/* catalog.css */
+#main_content div.item_list ul li {
+    overflow: visible;
+}
+
+#main_content ul.product_images {
+    overflow: visible;
+}
+
+#main_content.e_commerce .index .highlight .ecommerce_actions {
+	clear: both;
+}
+
+#main_content.e_commerce .index .new_products h3 {
+	height: 2.1em;
+}
+
+#main_content.e_commerce .basket input.text {
+	width: 2em;
+	text-align: center;
+}
+
+#main_content.e_commerce div.submit {
+	padding: 0px;
+}
+
+#main_content.e_commerce form div.submit input, #content_wrapper #additional_content_offers form div.submit input, #main_content.e_commerce form div.submit input:hover, #content_wrapper #additional_content_offers form div.submit input:hover
+{
+	background-position: 100% 45%;
+}
+
+#main_content.e_commerce form div.submit input, #content_wrapper #additional_content_offers form div.submit input
+{
+	padding-right: 8px;
+}
+
+#additional_content_offers p.image {
+	display: inline;
+	padding-bottom: 0px;
+}
+
+#additional_content_offers div.submit input {
+	position: absolute;
+	left: 105px;
+}
+
+#main_content.e_commerce .item div.submit {
+	margin-left: -10px;
+}
+
+#main_content.e_commerce .item .utilities {
+	top: -4.3em;
+	margin-bottom: -3em;
+}
+
+#main_content.e_commerce .index .offers form, #main_content.e_commerce .list .product_list form
+{
+	width: 1px;
+}
+
+/* checkout.css */
+#main_content.checkout input[type=text], #main_content.checkout input[type=password], #main_content.checkout textarea
+{
+	width: 262px;
+}
+
+#main_content.checkout #anonymous_login #additional_content div.block {
+        overflow: visible;
+        zoom: 1;
+        position: relative;
+}
+
+#main_content.checkout #anonymous_login #additional_content div.block div.submit input {
+        width: auto;
+        margin: 0px;
+        float: right;
+}
+
+#main_content .check_radio strong {
+        top: 0px;
+        margin-left: 2px;
+}
+
+#main_content.checkout #normal_login input[type="text"], 
+#main_content.checkout #normal_login input[type="password"], 
+#main_content.checkout #normal_login textarea {
+        width:310px;
+}
+
+#main_content.checkout select {
+	width: 227px;
+}
+
+#main_content.checkout .index #anonymous_login div.submit input {
+	position: relative;
+	right: -10px;
+	top: -2px;
+}
+
+#main_content.checkout .index div#normal_login input[type="text"], #main_content.checkout .index div#normal_login input[type="password"]
+{
+	width: 200px;
+}
+
+#main_content.checkout .index div#normal_login div {
+	margin-left: 133px;
+}
+
+#additional_content h3 {
+	margin-bottom: 10px;
+}
+
+#additional_content h3 span {
+	margin-bottom: 0;
+}
+
+#main_content ol#checkout_steps {
+        height: 40px;
+}
+
+#main_content .submit_previous a {
+        line-height: 1.5em;
+}
+
+/* news */
+
+#main_content.news p.image {
+        display: inline;
+}
+
+/* Breadcrumb */
+
+ol#breadcrumb {
+        position: relative;
+        width: 100%;
+        zoom: 1;
+}
+
+ol#breadcrumb li a, ol#breadcrumb li span {
+        display: inline-block;
+}
+
+/* Generic List */
+
+
+#main_content div.category_list ul li {
+    margin: 0em 1.6em 2em 0em;
+    width: 156px;
+}
+
+#wrapper #main_content div.category_list ul li p.image {
+        margin-right: 0px;
+}
+
+/* Login point */
+
+#wrapper #content_wrapper div#login_point {
+        zoom: 1;
+}
+
+#wrapper #content_wrapper div#login_point div.submit {
+        width: auto;
+        zoom: 1;
+        background: none;
+}
+
+/* Video */
+
+#main_content.video_gallery .category_list ul li {
+    display: inline;
+}
+
+#main_content.video_gallery .item_list ul li {
+     display: inline;
+     padding: 0px;
+     width: auto;
+}
+
+#main_content.video_gallery .item_list ul li p.image {
+     margin: 0 !important;
+     padding: 0px !important;
+}
+
+#main_content.video_gallery .item .image_navigation {
+    overflow: visible;
+}
+
+/* Item images */
+
+div#item_images ul.image_list {
+	display: inline;
+	margin: 0em;
+	padding: 0em;
+	width: 100px;
+}
+
+div#item_images ul.image_list li,
+div#item_images ul.image_list li p {
+	margin: 0em;
+	padding: 0em;	
+}
+
+
+/*Private area*/
+#main_content.private_area div.submit {
+        margin-left:156px;
+        width:271px;
+}
+
+/* Navigation footer */
+
+div#navigation_footer ul li {
+	height: 1em;
+}
+
+/* Ecommerce - services */
+
+div#item_images {
+	overflow: visible;
+}
+
+div#item_images ul.image_list li div {
+	float: left;
+	margin-right: 2px;
+}
+
+div#item_images.vproduct ul.image_list {
+	display: inline;
+	padding:0em!important;
+}
+
+div#item_images.vproduct ul.image_list li {
+	margin: 0em 0em 0em -20px!important;
+	padding: 0em!important;
+}
